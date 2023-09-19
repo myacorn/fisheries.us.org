@@ -1,0 +1,14 @@
+/* Without !important, bgcolor is lost with JS sticky update */
+.navbar {
+    background-color: #0054A4 !important;
+}
+
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link:hover {
+  color: #FFF;
+  /* text-decoration: underline; */
+}
+
+.featured-section {
+    border-radius: 0 0 30px 30px;
+}
